@@ -74,3 +74,8 @@ service tee_check_keybox /vendor/bin/tee_check_keybox
        class main
        disabled
        oneshot
+service teei_daemon /system/bin/teei_daemon
+    class main
+    user system
+    group system
+
